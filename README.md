@@ -4,7 +4,7 @@
 
 ## Description
 
-![](//static.32ph.com/upload-pic/tiq9k.jpg)
+![](https://static.32ph.com/upload-pic/tiq9k.jpg)
 
 The distributed operation layer (DOL) is a framework that enables the (semi-) automatic mapping of applications onto the multiprocessor SHAPES architecture platform. The DOL consists of basically three parts:
 - DOL Application Programming Interface: The DOL defines a set of computation and communication routines that enable the programming of distributed, parallel applications for the SHAPES platform. Using these routines, application programmers can write programs without having detailed knowledge about the underlying architecture. In fact, these routines are subject to further refinement in the hardware dependent software (HdS) layer.
@@ -73,7 +73,7 @@ cd build/bin/main
 ant -f runexample.xml -Dnumber=1
 ```
 
-![](//static.32ph.com/upload-pic/puj8i.jpg)
+![](https://static.32ph.com/upload-pic/puj8i.jpg)
 
 ## Experimental experience
 
