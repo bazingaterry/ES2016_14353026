@@ -4,6 +4,8 @@
 
 使用 Java 实现死锁，阐述其原因。
 
+## Code
+
 ```java
 class A {
     synchronized void method(B b) {
@@ -47,6 +49,8 @@ class Deadlock implements Runnable {
 }
 ```
 
+## Test
+
 运行脚本。
 
 ```bash
@@ -62,13 +66,14 @@ done
 
 ![](https://static.32ph.com/upload-pic/5qfke.jpg)
 
-产生死锁的四个必要条件：
+## 产生死锁的四个必要条件
+
 1. 互斥条件：一个资源每次只能被一个进程使用。
 2. 请求与保持条件：一个进程因请求资源而阻塞时，对已获得的资源保持不放。
 3. 不剥夺条件：进程已获得的资源，在末使用完之前，不能强行剥夺。
 4. 循环等待条件：若干进程之间形成一种头尾相接的循环等待资源关系。
 
-下面分析上述程序产生死锁的原因。
+## 分析上述程序产生死锁的原因
 
 1. `Thread t = new Thread(this)` 创建了一个新线程，执行 run 函数，即 `b.method(a)`。
 2. 主线程一段时间之后执行 `a.method(b)`。
