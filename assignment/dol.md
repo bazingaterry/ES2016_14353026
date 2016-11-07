@@ -69,4 +69,4 @@ int square_fire(DOLProcess *p) {
 
 ## Experimental experience
 
-DOL 真是一个优雅方便的仿真框架。
+DOL 真是一个优雅方便的仿真框架，它允许我们可以低成本，方便地进行一系列的嵌入式系统模拟，大大减少了实验开销。
