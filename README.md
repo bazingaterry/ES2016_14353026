@@ -9,3 +9,4 @@
 3. Lab 3 - [DOL](https://github.com/bazingaterry/ES2016_14353026/blob/master/assignment/dol.md)
 4. Lab 4 - [Deadlock](https://github.com/bazingaterry/ES2016_14353026/blob/master/assignment/deadlock.md) & [Code](https://github.com/bazingaterry/ES2016_14353026/tree/master/assignment/deadlock)
 5. Lab 5 - [Configure ROS on Ubuntu](https://github.com/bazingaterry/ES2016_14353026/blob/master/assignment/ros.md)
+6. Lab 5 Ex - [Cartographer ROS Integration](https://github.com/bazingaterry/ES2016_14353026/blob/master/assignment/cartographer.md)

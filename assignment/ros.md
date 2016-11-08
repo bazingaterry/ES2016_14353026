@@ -50,3 +50,7 @@ source ~/.bashrc
 > [rosinstall](http://wiki.ros.org/rosinstall) is a frequently used command-line tool in ROS that is distributed separately. It enables us to easily download many source trees for ROS packages with one command.
 
 `sudo apt-get install python-rosinstall`
+
+## Experimental experience
+
+ROS is really a great stuff!
